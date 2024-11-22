@@ -47,7 +47,7 @@ function copyCode() {
   navigator.clipboard
     .writeText(formattedOutput)
     .then(() => {
-      alert("Code copied to clipboard!");
+      console.log("Kode berhasil di salin")
     })
     .catch((err) => {
       console.error("Could not copy text: ", err);
